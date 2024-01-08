@@ -9,7 +9,7 @@ from io import BytesIO
 app = Flask(__name__)
 
 # Azure and OpenAI configuration
-openai.api_key = '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'
+openai.api_key = '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'
 speech_key = '198fc642bfcc4720b79d62a6f9aab480'
 service_region = 'eastasia'
 speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
